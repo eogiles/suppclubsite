@@ -3,7 +3,9 @@ import ContentSection from "~/components/content-section.astro";
 ---
 
 <ContentSection title="Join the Club" id="join">
-  <div class="text-primary">Sign up to keep in touch as we build SuppClub</div>
+  <Fragment slot="lead">
+    Sign up to keep in touch as we build SuppClub
+  </Fragment>
   <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
   <script>
     hbspt.forms.create({
