@@ -4,8 +4,7 @@ import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://eogiles.github.io",
-  base: "/suppclubsite",
+  site: "https://suppclubapp.com",
   integrations: [
     tailwind(),
     image({
