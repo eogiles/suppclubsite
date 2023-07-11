@@ -4,18 +4,14 @@ import HeroImage from "~/components/hero-image.astro";
 ---
 
 <section class="relative h-full bg-black">
-  <div id="splash-bg-fallback" class="absolute inset-0 opacity-40">
+  <div id="splash-bg-fallback" class="absolute inset-0 opacity-60">
     <HeroImage />
   </div>
-  <div class="relative grid h-full place-items-center sm:grid-cols-2">
-    <h2
-      class="flex flex-col gap-2 self-end sm:gap-4 sm:self-auto sm:justify-self-end"
-    >
-      <Icon name="logomark" class="h-32 text-white md:h-48" />
-      <div class="text-center font-extrabold tracking-tighter text-8xl text-white">
-        SuppClub
-      </div>
-      <div class="gradient-text text-center font-extrabold tracking-tighter text-4xl">
+  <div class="relative grid h-screen place-items-center">
+    <h2 class="flex flex-col gap-4">
+      <Icon name="wordmark" class="h-36 sm:h-48 md:h-64 lg:h-80" />
+      <div class="sr-only">SuppClub</div>
+      <div class="text-tertiary text-center font-extrabold text-4xl">
         Be a Supper Hero
       </div>
     </h2>
