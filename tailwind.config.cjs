@@ -10,7 +10,10 @@ module.exports = {
       colors: {
         primary: "var(--color-primary)",
         secondary: "var(--color-secondary)",
-        tertiary: "var(--color-tertiary)"
+        tertiary: "var(--color-tertiary)",
+        brandDark: "#1D1914",
+        accent: "#E4CD7F",
+        impact: "#E87602"
       },
       textColor: {
         default: "var(--color-text)",
