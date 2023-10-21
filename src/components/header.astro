@@ -9,6 +9,7 @@ const navItems: Array<NavItem> = [
   { title: "Features", url: "/#features" },
   { title: "Join", url: "/#join" },
   { title: "Contact", url: "/contact" },
+  { title: "Terms", url: "/terms" },
 ];
 ---
 
@@ -24,7 +25,7 @@ const navItems: Array<NavItem> = [
   <div>
     <div class="flex items-center gap-6">
       <nav class="hidden sm:block">
-        <ul class="flex items-center gap-6">
+        <ul class="list-none flex items-center gap-6">
           {
             navItems.map(({ title, url }) => (
               <li>
@@ -63,7 +64,7 @@ const navItems: Array<NavItem> = [
             <a href="/"><Icon name="logomark" class="h-16" /></a>
           </div>
           <nav>
-            <ul class="flex flex-col">
+            <ul class="list-none flex flex-col">
               {
                 navItems.map(({ title, url }) => (
                   <li>
